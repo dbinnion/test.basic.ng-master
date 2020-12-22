@@ -7,15 +7,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
-import { MapComponent } from './map/map.component';
-import { FlagComponent } from './flag/flag.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MapComponent,
-    FlagComponent,
   ],
   imports: [
     BrowserModule,
